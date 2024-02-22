@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $footer-bottom;
+    height: 150px;
+    color: $background;
+    
+    &__ul{
+        display: flex;
+        list-style: none;
+    }
+    &__li{
+        padding: 0 $spacer-5;
+    }
+    &__a{
+        color: $background;
+        text-decoration: none;
+    }
+    &__separator{
+        color: $copyright-text;
+    }
+    &__socials{
+        padding: $spacer-3 0;
+    }
+
+    &__icons{
+        color: $background;
+        padding: 0 $spacer-3;
+    }
+    &__copyright{
+        color: $copyright-text;
+    }
+}

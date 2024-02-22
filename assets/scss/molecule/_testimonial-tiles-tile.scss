@@ -1,0 +1,21 @@
+.testimonial-tiles-tile{
+    height: 385px;
+    width: 360px;
+    padding: $spacer-5;
+    box-sizing: border-box;
+    border: 1px solid $tiles-paragraph;
+    &__h2{
+        font-size: 1.3rem;
+        font-weight: normal;
+        color: $primary-color;
+        padding: $spacer-3 0;
+    }
+    &__p{
+        font-size: 0.9rem;
+        color: $tiles-paragraph;
+        height: 180px;
+    }
+    .quote-icon{
+        margin-top: -71px;
+    }
+}

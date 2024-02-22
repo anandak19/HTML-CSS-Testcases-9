@@ -1,0 +1,15 @@
+.logo-wrapper{
+    &__image{
+        height: $spacer-6;
+        width: fit-content;
+        display: block;
+    }
+}
+
+@include mobile{
+    .logo-wrapper{
+        &__image{
+            height: $spacer-5;
+        }
+    }
+}

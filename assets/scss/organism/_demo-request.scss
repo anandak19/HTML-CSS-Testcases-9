@@ -1,0 +1,15 @@
+.demo-request{
+    padding: 0 $spacer-10;
+    display: flex;
+    .request-form{
+        width: 60%;
+        padding: $spacer-1;
+    }
+    .separator{
+        margin: $spacer-4 $spacer-6;
+        height: 352px;
+    }
+    .next-step{
+        width: 40%;
+    }
+}

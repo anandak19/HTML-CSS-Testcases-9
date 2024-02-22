@@ -1,0 +1,11 @@
+.testimonial-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 $spacer-10;
+    .testimonial-tiles-tile {
+        width: calc(33.33% - 20px);
+        margin-bottom: 60px;
+        height: 390px;
+    }
+}

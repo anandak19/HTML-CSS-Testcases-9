@@ -1,0 +1,23 @@
+.quote-icon{
+    background-color: $secondary-color;
+    height: 75PX;
+    width: 75PX;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & i{
+        font-size: 2rem;
+        color: $background;
+    }
+}
+
+@include mobile{
+    .quote-icon{
+        height: 45PX;
+        width: 45PX;
+        & i{
+            font-size: 1rem;
+        }
+    }
+}

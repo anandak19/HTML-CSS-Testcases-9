@@ -1,0 +1,39 @@
+.landing-section__quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    &__title{
+        color: $primary-color;
+        margin-left: 55px;
+        margin-top: -65px;
+        padding-bottom: $spacer-3;
+    }
+    & i{
+        color: $quote-icon;
+        font-size: 7rem;
+    }
+    &__text{
+        font-size: 0.9rem;
+        color: $main-paragraph;
+        margin-left: 55px;
+    }
+}
+
+@include mobile{
+    .landing-section__quote {
+        width: 50%;
+        &__title{
+            margin-left: 25px;
+            padding-bottom: $spacer-2;
+        }
+        & i{
+            font-size: 1.3rem;
+        }
+        &__text{
+            font-size: 0.9rem;
+            margin-left: 15px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.navbar-wrapper {
+    width: fit-content;
+    display: flex;
+        &__ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        &__li {
+            display: inline-block;
+            margin-left: $spacer-5;
+            
+        }
+        & a{
+            text-decoration: none;
+            color: $primary-color;
+        }
+}
+
+// @include mobile{
+
+// }

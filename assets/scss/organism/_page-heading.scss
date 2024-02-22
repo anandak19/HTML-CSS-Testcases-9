@@ -1,0 +1,14 @@
+.page-heading{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: $background;
+    &__heading{
+        color: $background;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+}
