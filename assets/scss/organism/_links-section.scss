@@ -1,0 +1,23 @@
+.links-section{
+    background: $footer-top;
+    padding: $spacer-8 140px;
+    display: flex;
+    justify-content: center;
+
+    .logo-wrapper{
+        margin-left: -5%;
+        padding-bottom: $spacer-2;
+        &__image{
+            height: $spacer-6;
+        }
+    }
+    .separator{
+        margin: $spacer-4 38px;
+        height: 216px;
+        border-left: 1px solid $copyright-text;
+    }
+    &__subsection{
+        padding-top: $spacer-6;
+        padding-left: $spacer-4;
+    }
+}
